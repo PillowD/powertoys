@@ -1,3 +1,52 @@
 hello there
 
 C:\Users\front\AppData\Local\PowerToys\
+C:\Users\front\AppData\Local\Microsoft\PowerToys\Keyboard Manager
+has default json and settings json
+{
+  "remapKeys": {
+    "inProcess": []
+  },
+  "remapKeysToText": {
+    "inProcess": []
+  },
+  "remapShortcuts": {
+    "global": [
+      {
+        "originalKeys": "160;112",
+        "runProgramElevationLevel": 0,
+        "secondKeyOfChord": 0,
+        "operationType": 1,
+        "runProgramAlreadyRunningAction": 3,
+        "runProgramStartWindowType": 0,
+        "runProgramFilePath": "C:\\Program Files\\DipTrace\\Pcb.exe",
+        "runProgramArgs": "",
+        "runProgramStartInDir": "",
+        "unicodeText": "*Unsupported*"
+      },
+      {
+        "originalKeys": "162;160;65",
+        "runProgramElevationLevel": 0,
+        "secondKeyOfChord": 0,
+        "operationType": 1,
+        "runProgramAlreadyRunningAction": 0,
+        "runProgramStartWindowType": 0,
+        "runProgramFilePath": "C:\\Program Files\\AutoHotkey\\v2\\AutoHotkey64.exe",
+        "runProgramArgs": "\"C:\\Users\\front\\Desktop\\AHKv2\\ahk modern 14 laptop v2.ahk\"",
+        "runProgramStartInDir": "",
+        "unicodeText": "*Unsupported*"
+      }
+    ],
+    "appSpecific": []
+  },
+  "remapShortcutsToText": {
+    "global": [
+      {
+        "originalKeys": "160;84;89",
+        "unicodeText": "Hello There,",
+        "secondKeyOfChord": 89
+      }
+    ],
+    "appSpecific": []
+  }
+}
