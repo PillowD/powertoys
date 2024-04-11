@@ -1,4 +1,5 @@
-AppData\Local\Microsoft\PowerToys\Keyboard Manager
+C:\Users\front\AppData\Local\PowerToys\
+C:\Users\front\AppData\Local\Microsoft\PowerToys\Keyboard Manager
 
 theres json when it is first installed
 
