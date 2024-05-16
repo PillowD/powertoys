@@ -1,0 +1,34 @@
+How to open the downloads directory with MS powertoys
+It does not natively allow it, but you can do it with powershell
+
+This is for a computer named front, replace front with your own computer name and path
+Here's how it looks Keyboard Manager > Remap a shortcut
+
+ShortCut:  Alt (left)  F12
+
+Action: Run Program
+App:c:\windows\system32\WindowsPowerShell\v1.0\powershell.exe
+Args: -Command "& { Start-Process explorer.exe 'C:\Users\front\Downloads' }"
+Start in:  empty
+ElevationL Normal
+if running: show window
+Visibility: hidden
+
+Target App:  All apps
+
+Below is how it looks in 
+file:///C:/Users/front/AppData/Local/Microsoft/PowerToys/Keyboard%20Manager/default.json
+original keys 164;123 = Alt(left) + F12 key
+
+{
+        "originalKeys": "164;123",
+        "runProgramElevationLevel": 0,
+        "secondKeyOfChord": 0,
+        "operationType": 1,
+        "runProgramAlreadyRunningAction": 0,
+        "runProgramStartWindowType": 1,
+        "runProgramFilePath": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "runProgramArgs": "-Command \"& { Start-Process explorer.exe 'C:\\Users\\front\\Downloads' }\"",
+        "runProgramStartInDir": "",
+        "unicodeText": "*Unsupported*"
+      },
