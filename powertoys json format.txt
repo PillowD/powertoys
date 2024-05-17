@@ -1,0 +1,14 @@
+Shortcut  originalKeys": "160;112",  Shift F1
+not shown  "secondKeyOfChord": 0, none
+
+Action:run program  "operationType": 1, 2 = open uri 
+App: "runProgramFilePath": "C:\\Program Files\\DipTrace\\Pcb.exe",
+Args: "runProgramArgs": "",  none 
+Start in: "runProgramStartInDir": "", none
+Elevation: "runProgramElevationLevel": 0, Normal
+If running: "runProgramAlreadyRunningAction": 3,  if running close
+Visiblity:  "runProgramStartWindowType": 0, normal 0 hidden = 1              
+                        
+        
+        
+        "unicodeText": "*Unsupported*"

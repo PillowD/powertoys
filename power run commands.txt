@@ -1,0 +1,20 @@
+Plug-in	Direct 		activation command	Example
+Calculator		=	= 2+2
+Windows search		?	? road to find 'roadmap.txt'
+History			!!	!! car to find any results that have been selected in the past, from any enabled plugin, that matches 'car'.
+Installed programs	.	. code to get Visual Studio Code. (See Program parameters for options on adding parameters to a program's startup.)
+OneNote			o:	o: powertoys to search your local OneNote notebooks for pages containing "powertoys"
+Registry keys		:	: hkcu to search for the 'HKEY_CURRENT_USER' registry key.
+Windows services	!	! alg to search for the 'Application Layer Gateway' service to be started or stopped
+			!startup:auto to search all services that start automatically
+			!status:running to show all running services
+Shell command		>	> ping localhost to do a ping query.
+Time and date		)	) time and date shows the current time and date in different formats.
+			) calendar week::04/01/2022 shows the calendar week for the date '04/01/2022'.
+Unit converter		%%	%% 10 ft in m to calculate the number of meters in 10 feet.
+Value Generator		#	# guid3 ns:URL www.microsoft.com to generate the GUIDv3 for the URL namespace using the URL namespace.
+			# sha1 abc to calculate the SHA1 hash for the string 'abc'.
+			# base64 abc to encode the string 'abc' to base64.
+URI-handler		//	// to open your default browser.
+			// learn.microsoft.com to have your default browser go to Microsoft Learn.
+			mailto: and ms-settings: links are supported.
